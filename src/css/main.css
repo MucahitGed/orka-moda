@@ -1,0 +1,184 @@
+.btn_checker{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.linker{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+}
+.linker:hover{
+    color: #ffcab0;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+/* Navbar */
+.whatsapp_div{
+
+}
+.returner{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.wp_btn{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 30px;
+    cursor: pointer;
+}
+.whatsapp_float{
+   
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+}
+.whatsapp_icon{
+
+}
+.left_div{
+    display: none;
+}
+/* Category */
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* product_link */
+.wrapper{
+    
+}
+.title{
+    font-weight: 1000;
+    font-size: 32px;
+}
+.infoContainer{
+    margin-top: 30px;
+}
+.kod_product{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.table {
+    margin-top: 40px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .td, .th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.composotionDiv{
+    display: flex;
+    margin-top: 20px;
+}
+.compositionBtn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0;
+}
+.compositionBtn:hover{
+
+}
+.composotion_content{
+    margin-left: 10px;
+    display: flex;
+    font-size: 18px;
+}
+.compontent{
+    margin-left: 15px;
+}
+/* men list */
+.category_men{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.category_item_btn{
+    background-color: transparent;
+    color: #000;
+    font-size: 1.4rem;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid transparent;
+}
+.category_item_btn:hover{
+    border-bottom: 2px solid black;
+}
+/* services */
+.services{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_div{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.service_font{
+    font-size: 2.4rem;
+    color: #edc661;
+}
+.service_header{
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+.service_content{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+}
